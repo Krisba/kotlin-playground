@@ -5,7 +5,7 @@ fun main() {
     //If you declare Double type you have to put the fractional part to the number
 
     val myNumber: Float = 2.5F
-    val mySecondNumber = 2.0
+    val mySecondNumber: Double = 2.0
 
     println("myNumber = $myNumber and mySecondNumber = $mySecondNumber")
 }

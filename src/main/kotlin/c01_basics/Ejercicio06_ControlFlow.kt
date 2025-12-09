@@ -8,7 +8,7 @@ fun main() {
     val max = if (a > b) a else b
     println("max = $max")
 
-    // When (switch de Kotlin)
+    // When (Kotlin switch)
     val grade = 85
     val result = when (grade) {
         in 90..100 -> "A"
