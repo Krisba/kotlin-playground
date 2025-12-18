@@ -1,4 +1,6 @@
-package main.kotlin.c01_basics
+package main.kotlin.c02_OOP
+
+import main.kotlin.c01_basics.Car
 
 fun main() {
     val car1 = Car("    Tesla", "S Plaid", "Red", 4)
@@ -21,24 +23,4 @@ fun main() {
 
     car2.move()
     car2.stop()
-}
-
-class Car(
-    name: String,
-    var model: String,
-    var color: String,
-    var doors: Int
-) {
-    // We can pass the attribute as a variable too instead of
-    // defining the property in the constructor. This is useful to manipulate
-    // the value
-    var name = name.trim()
-
-    fun move() {
-        println("The car $name is moving")
-    }
-
-    fun stop() {
-        println("The car $name has stopped")
-    }
 }
